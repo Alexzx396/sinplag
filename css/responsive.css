@@ -1,0 +1,196 @@
+/* ============================
+   RESPONSIVE DESIGN SINPLAG
+=============================== */
+
+/* === MÓVILES PEQUEÑOS (<=480px) === */
+@media (max-width: 480px) {
+  .container {
+    width: 95%;
+    padding: 0 10px;
+  }
+
+  .header-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .hero-text h1,
+  .hero-overlay h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .hero-overlay p {
+    font-size: 14px;
+  }
+
+  .iconos-servicios {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .iconos-servicios div {
+    max-width: 90%;
+  }
+
+  .galeria-servicios {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .galeria-servicios div {
+    width: 90%;
+    max-width: 320px;
+    text-align: center;
+  }
+
+  .grid-servicios {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .equipo-contacto {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .card-contacto {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .social-links a img {
+    width: 90%;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .video-box {
+    padding: 0 10px;
+  }
+}
+
+/* === TABLETS Y MÓVILES GRANDES (<=768px) === */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn-cotizar {
+    margin-top: 10px;
+  }
+
+  .hero-text h1,
+  .hero-overlay h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .hero-overlay p {
+    font-size: 15px;
+  }
+
+  .grid-servicios {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 20px;
+  }
+
+  .galeria-servicios {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .equipo-contacto {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .social-links a img {
+    width: 160px;
+  }
+
+  .video-box {
+    max-width: 100%;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .mapa-contenido {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contacto-info-box {
+    margin-top: 20px;
+  }
+}
+
+/* === TABLETS GRANDES/LAPTOPS (<=1024px) === */
+@media (max-width: 1024px) {
+  .navbar {
+    gap: 12px;
+  }
+
+  .hero-text h1,
+  .hero-overlay h1 {
+    font-size: 28px;
+  }
+
+  .grid-servicios {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+
+  .logos-track img {
+    height: 80px;
+  }
+
+  .galeria-servicios {
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
+/* === ULTRA DESKTOP (opcional) === */
+@media (min-width: 1440px) {
+  .hero-overlay h1 {
+    font-size: 48px;
+  }
+
+  .hero-overlay p {
+    font-size: 18px;
+  }
+
+  .card-contacto {
+    max-width: 240px;
+  }
+
+  .grid-servicios {
+    max-width: 1320px;
+  }
+}
