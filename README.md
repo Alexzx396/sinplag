@@ -27,33 +27,6 @@ Todos los tratamientos son realizados bajo estrictas normas sanitarias, con prod
 
 ---
 
-## 📁 Estructura del Proyecto
-
-sinplag/
-├── index.html
-├── contacto/
-│ └── index.html
-├── nosotros/
-│ └── index.html
-├── servicios/
-│ └── index.html
-├── components/
-│ ├── header.html
-│ └── footer.html
-├── css/
-│ ├── reset.css
-│ ├── base.css
-│ ├── style.css
-│ └── responsive.css
-├── js/
-│ ├── include.js
-│ └── clean-url.js
-└── assets/
-├── img/
-├── video/
-
----
-
 ## 🛠️ Tecnologías utilizadas
 
 - ✅ **HTML5** – Maquetación semántica
