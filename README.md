@@ -22,10 +22,8 @@ Todos los tratamientos son realizados bajo estrictas normas sanitarias, con prod
 
 ## 🌐 Demo del sitio
 
-📍 [https://tu-usuario.github.io/sinplag-landing/](https://tu-usuario.github.io/sinplag-landing/)  
-🚧 _Reemplaza este link con tu URL real cuando esté publicado_
+📍 [https://www.sinplag.cl/] 
 
----
 
 ## 🛠️ Tecnologías utilizadas
 
